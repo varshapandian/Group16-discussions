@@ -2,7 +2,7 @@
 
 ## MEMBERS 
 - ASWIN
-
+- Indupriya
 ## ROLES AND WORK
 
 ## Date Feature
@@ -10,7 +10,7 @@
 ## Booking of Desired Desk
 
 ## Previosuly booked by others
-
+- Indupriya
 ## Locations Currently Booked
 
 ## Reminder of Upcoming Bookings 
