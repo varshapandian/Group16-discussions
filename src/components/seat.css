@@ -1,0 +1,30 @@
+.seat-container{
+    margin: 200px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    min-height: 60vh;
+}
+
+.seat{
+    margin: 10px;
+    height: 60px;
+    width: 60px;
+    background-color: red;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+}
+
+.seat:nth-child(4n){
+    background-color: yellow;
+}
+
+.seat:nth-child(4n+1){
+    background-color: red;
+}
+.seat:nth-child(4n+2){
+    background-color: blue;
+}
+.seat:nth-child(4n+3){
+    background-color: green;
+}

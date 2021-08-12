@@ -1,23 +1,50 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import AwesomeSlider from 'react-awesome-slider';
+import 'react-awesome-slider/dist/styles.css';
+import 'react-awesome-slider/dist/custom-animations/cube-animation.css';
+
+import First from './components/First';
+import Second from './components/Second';
+import Third from './components/Third';
+
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Link
+} from "react-router-dom";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+    <>
+      <AwesomeSlider animation='cubeAnimation' buttons={true} fillParent={true}  >
+        <div><First/></div>
+        <div><Second/></div>
+        <div><Third/></div>
+        <div><First/></div>
+        <div><Second/></div>
+        <div><Third/></div>
+        <div><First/></div>
+        <div><Second/></div>
+        <div><Third/></div>
+        <div><First/></div>
+        <div><Second/></div>
+        <div><Third/></div>
+        <div><First/></div>
+        <div><Second/></div>
+        <div><Third/></div>
+        <div><First/></div>
+        <div><Second/></div>
+        <div><Third/></div>
+        <div><First/></div>
+        <div><Second/></div>
+        <div><Third/></div>
+        <div><First/></div>
+        <div><Second/></div>
+        <div><Third/></div>
+      </AwesomeSlider>
+    </>
     </div>
   );
 }
